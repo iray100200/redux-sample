@@ -1,0 +1,30 @@
+{
+    "name": "react-redux",
+    "author": {
+        "name": "Raymond"
+    },
+    "version": "0.0.1",
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "css-loader": "^0.28.9",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-hot-loader": "^3.1.3",
+        "react-redux": "latest",
+        "redux": "latest",
+        "webpack": "latest",
+        "webpack-dev-server": "^2.11.1"
+    },
+    "devDependencies": {
+        "babel-loader": "^7.1.2",
+        "babel-polyfill": "^6.26.0"
+    },
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server --content-base build --inline --hot"
+    }
+}
