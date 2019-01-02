@@ -1,4 +1,26 @@
 {
-    "presets": ["env", "react", "stage-0"],
-    "plugins": ["react-hot-loader/babel"]
+    "presets": [
+        "env",
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        [
+            "prismjs",
+            {
+                "languages": [
+                    "javascript",
+                    "jsx",
+                    "css",
+                    "markup"
+                ],
+                "plugins": [
+                    "line-numbers"
+                ],
+                "theme": "twilight",
+                "css": true
+            }
+        ]
+    ]
 }
